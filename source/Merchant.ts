@@ -13,6 +13,7 @@ import { PingCompensatedCharacter } from "./PingCompensatedCharacter.js"
 import { Tools } from "./Tools.js"
 import type { ItemName } from "./definitions/adventureland-data.js"
 
+
 export class Merchant extends PingCompensatedCharacter {
     ctype: "merchant" = "merchant" as const
 
